@@ -75,6 +75,14 @@
                         </span>
                     </a>
                 </li>
+                <li class="menu-group<? if scriptname == 'groups/bulklists' then ?> active<? end ?>">
+                    <a href="<?=webhome?>groups/bulklists">
+                        <i class="fa fa-fw menu-icon fa-shield-alt"></i> <span>Bulk Lists
+                        <span class="pull-right-container">
+                            <span class="label bg-blue pull-right" id="num_bulklists" title="Number of subscribed bulk lists"></span>
+                        </span>
+                    </a>
+                </li>
 
                 <li class="header text-uppercase">DNS Control</li>
                 <!-- Local DNS Records -->

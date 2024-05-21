@@ -247,6 +247,7 @@ function updateFtlInfo() {
       $("#num_groups").text(intl.format(database.groups));
       $("#num_clients").text(intl.format(database.clients));
       $("#num_lists").text(intl.format(database.lists));
+      $("#num_bulklists").text(intl.format(database.bulklists));
       $("#num_gravity").text(intl.format(database.gravity));
       $("#num_allowed").text(intl.format(database.domains.allowed));
       $("#num_denied").text(intl.format(database.domains.denied));
